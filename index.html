@@ -1,0 +1,50 @@
+<!-- ================= USER INPUT ================= -->
+
+<section class="input-section">
+
+    <div class="section-heading">
+        <p>UPDATE PARKING</p>
+        <h2>Enter Parking Information</h2>
+    </div>
+
+    <div class="input-box">
+
+        <div class="input-group">
+
+            <label for="totalInput">
+                Total Parking Spaces
+            </label>
+
+            <input
+                type="number"
+                id="totalInput"
+                value="50"
+                min="1"
+            >
+
+        </div>
+
+
+        <div class="input-group">
+
+            <label for="occupiedInput">
+                Occupied Spaces
+            </label>
+
+            <input
+                type="number"
+                id="occupiedInput"
+                value="36"
+                min="0"
+            >
+
+        </div>
+
+
+        <button onclick="updateParking()">
+            Update Parking
+        </button>
+
+    </div>
+
+</section>
