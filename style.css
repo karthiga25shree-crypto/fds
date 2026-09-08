@@ -1,0 +1,97 @@
+/* =========================
+   USER INPUT
+========================= */
+
+.input-section {
+    margin-bottom: 40px;
+}
+
+.input-box {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    display: flex;
+
+    align-items: end;
+
+    gap: 20px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(0,0,0,0.06);
+}
+
+.input-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    flex: 1;
+}
+
+.input-group label {
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #4b5563;
+}
+
+.input-group input {
+    padding: 14px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color: #2454c5;
+}
+
+.input-box button {
+    padding: 14px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2454c5;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.input-box button:hover {
+    background: #173b8f;
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    .input-box {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .input-box button {
+        width: 100%;
+    }
+}
